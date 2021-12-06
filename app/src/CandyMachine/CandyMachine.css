@@ -1,28 +1,42 @@
 .machine-container {
   display: flex;
   flex-direction: column;
+  background-color: rgb(42, 255, 208);
+  border-radius: 2em;
 }
+.machine-container p {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: rgb(19, 20, 21);
+}
+
 
 .gif-container {
   display: flex;
   flex-direction: column;
+  scroll-behavior: auto;
+
 }
 
 .gif-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1.5rem;
+  gap:10px;
   justify-items: center;
   margin: 0;
-  padding: 20px 0 20px 0;
+  padding: 10px 0 10px 0;
+  width: 100%;
+  background-color: rgb(19, 197, 158);
+  scroll-behavior: auto;
 }
 
 .gif-grid .gif-item {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: relative;
   justify-self: center;
   align-self: center;
+  /*background-color: crimson;*/
 }
 
 .gif-item img {

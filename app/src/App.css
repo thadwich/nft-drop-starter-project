@@ -7,6 +7,8 @@
 }
 
 .container {
+  flex: 1 1 auto;
+  overflow-y: auto;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -15,6 +17,7 @@
   color: white;
   position: relative;
   /* background-color: #35aee2; */
+  scroll-behavior: auto;
 }
 
 .authed-container {
@@ -25,17 +28,22 @@
 }
 
 .header-container {
-  /* background-color: #60c657; */
+  margin-top: 200px;
+  /*background-color: #60c657;*/
 }
 
 .header {
   margin: 0;
-  font-size: 50px;
+  font-size: 5em;
   font-weight: bold;
+  font-variant: small-caps;
+  color: aquamarine;
 }
 
 .sub-text {
-  font-size: 25px;
+  font-size: 2.2em;
+  font-weight: 300;
+  font-variant: small-caps;
 }
 
 .gradient-text {
@@ -65,10 +73,17 @@
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #4e44ce, #35aee2);
+  align-self: center;
+  background: -webkit-linear-gradient(bottom, #161616, #003b2e);
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
-  margin-left: 10px;
+  margin: 30px;
+  width: 60%;
+  height: 3em;
+  color: aquamarine;
+  font-size: 2.2em;
+  font-weight: 300;
+  font-variant: small-caps;
 }
 
 .footer-container {
@@ -79,6 +94,7 @@
   width: 100%;
   bottom: 0;
   left: 0;
+  background-color:rgb(20, 20, 20);
   /* padding-bottom: 45px; */
 }
 
@@ -86,6 +102,11 @@
   width: 35px;
   height: 35px;
 }
+.danger-bear {
+  width:400px;
+  height:400px;
+}
+
 
 .footer-text {
   font-size: 16px;
