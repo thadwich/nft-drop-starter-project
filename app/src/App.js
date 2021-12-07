@@ -5,7 +5,7 @@ import dbLogo from './assets/db0.png';
 import CandyMachine from './CandyMachine';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'thadwich';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
